@@ -1,0 +1,16 @@
+.employee-details {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.25rem;
+  background: var(--card);
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+}
+.employee-details__body { flex: 1; min-width: 0; }
+.employee-details h2 { margin: 0; }
+.employee-details p { margin: 0.2rem 0 1rem; color: var(--muted); }
+.employee-details dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.3rem 1rem; }
+.employee-details dt { font-weight: 700; }
+.employee-details dd { margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 560px) { .employee-details { flex-direction: column; } }

@@ -1,0 +1,17 @@
+:root {
+  --bg: #eef1ee;
+  --card: #ffffff;
+  --ink: #14232b;
+  --muted: #55646b;
+  --line: #d3dad6;
+  --accent: #0f766e;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+}
+button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }

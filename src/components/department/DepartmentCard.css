@@ -1,0 +1,19 @@
+.dept-card {
+  font: inherit;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.1rem;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-left: 8px solid var(--dept-color);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--ink);
+}
+.dept-card:hover { border-color: var(--dept-color); }
+.dept-card--active { background: var(--dept-color); border-color: var(--dept-color); color: #fff; }
+.dept-card__name { font-weight: 800; font-size: 1.05rem; }
+.dept-card__desc { font-size: 0.85rem; opacity: 0.85; }
+.dept-card__count { margin-top: 0.3rem; font-size: 0.85rem; font-weight: 700; }

@@ -1,0 +1,22 @@
+.btn {
+  font: inherit;
+  font-weight: 700;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn--md { padding: 0.6rem 1.1rem; font-size: 0.95rem; }
+.btn--sm { padding: 0.35rem 0.75rem; font-size: 0.85rem; }
+.btn--full { width: 100%; }
+
+.btn--primary { background: var(--ink); color: #fff; }
+.btn--primary:hover:not(:disabled) { background: var(--accent); }
+
+.btn--secondary { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn--secondary:hover:not(:disabled) { background: var(--ink); color: #fff; }
+.btn--secondary[aria-pressed="true"] { background: var(--ink); color: #fff; }
+
+.btn--ghost { background: transparent; color: var(--ink); }
+.btn--ghost:hover:not(:disabled) { background: var(--line); }

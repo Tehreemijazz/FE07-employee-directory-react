@@ -1,0 +1,5 @@
+.directory { max-width: 1120px; margin: 0 auto; padding: 2rem 1rem 4rem; display: flex; flex-direction: column; gap: 2rem; }
+.directory__section h2 { margin: 0 0 1rem; font-size: 1.25rem; }
+.directory__count { color: var(--muted); font-weight: 500; }
+.directory__departments { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+@media (min-width: 768px) { .directory { padding: 3rem 2rem 5rem; } }

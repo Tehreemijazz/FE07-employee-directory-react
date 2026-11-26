@@ -1,0 +1,23 @@
+.employee-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.1rem;
+  background: var(--card);
+  border: 2px solid var(--line);
+  border-radius: 12px;
+}
+.employee-card--favorite { border-color: var(--ink); box-shadow: 5px 5px 0 var(--ink); }
+.employee-card--compact { padding: 0.8rem 1rem; }
+.employee-card__top { display: flex; gap: 0.9rem; align-items: center; }
+.employee-card__name { margin: 0; font-size: 1.1rem; }
+.employee-card__role, .employee-card__dept { margin: 0.1rem 0 0; font-size: 0.9rem; color: var(--muted); }
+.employee-card__meta { margin: 0; display: flex; align-items: center; gap: 0.6rem; font-size: 0.9rem; }
+.employee-card__skills { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.employee-card__skills li { font-size: 0.8rem; padding: 0.2rem 0.55rem; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); }
+.employee-card__actions { display: flex; gap: 0.5rem; margin-top: auto; }
+
+.status { font-size: 0.8rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 6px; }
+.status--in-office { background: #d1fae5; color: #065f46; }
+.status--remote { background: #dbeafe; color: #1e40af; }
+.status--on-leave { background: #fef3c7; color: #92400e; }

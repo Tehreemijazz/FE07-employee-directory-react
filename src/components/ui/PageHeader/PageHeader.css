@@ -1,0 +1,12 @@
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 3px solid var(--ink);
+}
+.page-header__title { margin: 0; font-size: clamp(2rem, 6vw, 3.25rem); line-height: 1; font-weight: 800; letter-spacing: -0.03em; }
+.page-header__subtitle { margin: 0.5rem 0 0; color: var(--muted); max-width: 52ch; }
+.page-header__actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
