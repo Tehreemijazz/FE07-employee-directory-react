@@ -3,7 +3,7 @@
 Run:  npm install then npm run dev
 
 ## Folder structure
-
+'''
 src/
   data/employees.js                 employee + department arrays (named exports)
   components/
@@ -13,4 +13,4 @@ src/
     department/                     DepartmentCard
   pages/EmployeeDirectoryPage.jsx   page component: state + layout
   App.jsx, main.jsx
-
+'''
